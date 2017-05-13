@@ -13,6 +13,7 @@ class ViewController:  UIViewController , CLLocationManagerDelegate {
 
     @IBOutlet weak var objectStatus: UILabel!
     var locationManager:CLLocationManager = CLLocationManager();
+    var x = 0;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,15 @@ class ViewController:  UIViewController , CLLocationManagerDelegate {
         locationManager.requestAlwaysAuthorization()
         
     }
+    func createAlert (title:String ,massage:String)
+    {
+        let alert = UIAlertController(title:title , message:massage,preferredStyle:UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title:"OK" , style:UIAlertActionStyle.default, handler: { (action) in alert.dismiss(animated:true ,completion:nil)}))
+        self.present(alert,animated: true,completion: nil)
+    }
+    
+
     
     
     func rangeBeacons(){
@@ -77,16 +87,14 @@ class ViewController:  UIViewController , CLLocationManagerDelegate {
         */
         switch discoverdBeaconProximity {
             
-        case.immediate: view.backgroundColor = UIColor.green; objectStatus.text="ใกล้มาก" ; return
+        case.immediate: view.backgroundColor = UIColor.green;createAlert(title: "รถมาถึงแล้ว", massage:  "เดินทางโดยสวัสดีภาพ");objectStatus.text="ใกล้มาก";return
         case.near: view.backgroundColor = UIColor.orange;objectStatus.text="ใกล้" ;return
         case.far: view.backgroundColor = UIColor.red; objectStatus.text="ไกล"  ; return
         case.unknown: view.backgroundColor = UIColor.black ;objectStatus.text="ยังไม่เจอ" ; return
+        
         }
-        
-        
-        
+               
     }
-    
     
 
 

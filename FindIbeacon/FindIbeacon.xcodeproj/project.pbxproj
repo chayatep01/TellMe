@@ -514,6 +514,7 @@
 				B1C360041EC1CD000040CCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1C360051EC1CD000040CCAA /* Build configuration list for PBXNativeTarget "FindIbeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				B1C360071EC1CD000040CCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1C360081EC1CD000040CCAA /* Build configuration list for PBXNativeTarget "FindIbeaconUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				B1C3600A1EC1CD000040CCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
