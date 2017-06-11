@@ -1,15 +1,26 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
-  <button ion-button (click)="pScan()"> Button </button>
+<ion-content>
+<ion-slides > 
+
+
+  <ion-slide>
+
+          <ion-list>
+            <ion-list-header>
+              สถานที่รอบตัวฉัน
+            </ion-list-header>
+            <ion-item *ngFor="let item of nearByPlaces" tappable>
+              <p *ngIf="item.distance != -1 && !item.last"> {{ item.name }} {{item.distance}} เมตร  </p>
+              <p *ngIf="item.distance != -1 && item.last"> {{ item.name }} {{item.distance}} เมตร สิ้นสุด </p>
+              <p *ngIf="item.distance == -1 && !item.last"> {{ item.name }} ไม่ทราบระยะทาง </p>
+              <p *ngIf="item.distance == -1 && item.last"> {{ item.name }} ไม่ทราบระยะทาง สิ้นสุด </p>
+            </ion-item>
+          </ion-list>
+
+
+  </ion-slide>
+
+</ion-slides>
+
+
 </ion-content>

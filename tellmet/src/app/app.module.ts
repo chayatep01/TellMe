@@ -6,6 +6,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { BLE } from "@ionic-native/ble";
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { TextToSpeech } from '@ionic-native/text-to-speech';
+import { EstimoteBeacons } from '@ionic-native/estimote-beacons';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { HomePage } from '../pages/home/home';
     StatusBar,
     SplashScreen,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
-    BLE
+    BLE,
+    TextToSpeech,
+    EstimoteBeacons
   ]
 })
 export class AppModule {}
