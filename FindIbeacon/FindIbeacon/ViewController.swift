@@ -91,8 +91,8 @@ class ViewController:  UIViewController , CLLocationManagerDelegate {
 
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()
-        listLocation.append(Location(title: "รถ ngv สายสามมาถึงแล้วนะ",message: "เดินทางโดยสวัสดีภาพ", major: 1 as NSNumber, minor: 2 as NSNumber, uuid: UUID(uuidString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")!));
-        listLocation.append(Location(title: "รถ ngv สายสามมาถึงแล้วนะ",message: "ทานกับข้าวให้อร่อย", major: 1 as NSNumber, minor: 4 as NSNumber, uuid: UUID(uuidString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")!));
+        listLocation.append(Location(title: "รถ ngv มาถึงแล้วนะ",message: "เดินทางโดยสวัสดีภาพ", major: 1 as NSNumber, minor: 2 as NSNumber, uuid: UUID(uuidString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")!));
+        listLocation.append(Location(title: "ถึงร้านข้าวแล้ว",message: "ทานกับข้าวให้อร่อย", major: 1 as NSNumber, minor: 4 as NSNumber, uuid: UUID(uuidString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")!));
         
         /*
          switch discoverdBeaconProximity {
