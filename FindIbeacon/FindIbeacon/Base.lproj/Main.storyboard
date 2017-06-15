@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,18 +19,39 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ยังไม่เจอ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4f-ve-jX2">
-                                <rect key="frame" x="121" y="277" width="133" height="112"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="i6p-Rq-pKF">
+                                <rect key="frame" x="157" y="323.5" width="61" height="20.5"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ยังไม่เจอ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJI-Xj-3sU">
+                                <rect key="frame" x="0.0" y="234.5" width="1024" height="720.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ยังไม่เจอ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4f-ve-jX2">
+                                <rect key="frame" x="437" y="433" width="150" height="85"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i6p-Rq-pKF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2eb-Lh-WpX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="T4f-ve-jX2" secondAttribute="trailing" constant="43" id="6Yr-kn-DtY"/>
+                            <constraint firstItem="PJI-Xj-3sU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-88.25" id="EyQ-So-ror"/>
+                            <constraint firstItem="T4f-ve-jX2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KqA-Rw-Klr"/>
+                            <constraint firstItem="PJI-Xj-3sU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mqw-oE-fE8"/>
+                            <constraint firstAttribute="width" secondItem="PJI-Xj-3sU" secondAttribute="width" id="QVP-L0-D2l"/>
+                            <constraint firstItem="PJI-Xj-3sU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="S8h-QK-l7Z"/>
+                            <constraint firstItem="PJI-Xj-3sU" firstAttribute="top" secondItem="T4f-ve-jX2" secondAttribute="bottom" constant="13" id="T16-RO-5hM"/>
+                            <constraint firstItem="i6p-Rq-pKF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="X98-3j-Opp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PJI-Xj-3sU" secondAttribute="bottom" constant="411" id="eDj-DU-9KD"/>
+                            <constraint firstItem="PJI-Xj-3sU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yNg-UU-NQw"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="objectStatus" destination="T4f-ve-jX2" id="ae4-OZ-DpT"/>
@@ -37,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="68.815592203898049"/>
+            <point key="canvasLocation" x="28.125" y="66.25"/>
         </scene>
     </scenes>
 </document>

@@ -6,16 +6,205 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindIbeacon/ViewController.swift"
+            timestampString = "518978764.079326"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "rangeBeacons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FindIbeacon/ViewController.swift"
-            timestampString = "516025937.704985"
+            timestampString = "518978764.079326"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "rangeBeacons()"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "locationManager(_:didRangeBeacons:in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindIbeacon/ViewController.swift"
+            timestampString = "518973699.556438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindIbeacon.ViewController.Location.__deallocating_deinit"
+                  moduleName = "FindIbeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chayatep/Desktop/TellMe/FindIbeacon/FindIbeacon/ViewController.swift"
+                  timestampString = "518978798.795249"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindIbeacon.ViewController.Location.deinit"
+                  moduleName = "FindIbeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chayatep/Desktop/TellMe/FindIbeacon/FindIbeacon/ViewController.swift"
+                  timestampString = "518978798.796584"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindIbeacon/ViewController.swift"
+            timestampString = "518965527.862318"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindIbeacon.ViewController.__deallocating_deinit"
+                  moduleName = "FindIbeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chayatep/Desktop/TellMe/FindIbeacon/FindIbeacon/ViewController.swift"
+                  timestampString = "518978798.800181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindIbeacon.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FindIbeacon.ViewController"
+                  moduleName = "FindIbeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chayatep/Desktop/TellMe/FindIbeacon/FindIbeacon/ViewController.swift"
+                  timestampString = "518978798.802869"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindIbeacon.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FindIbeacon.ViewController"
+                  moduleName = "FindIbeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chayatep/Desktop/TellMe/FindIbeacon/FindIbeacon/ViewController.swift"
+                  timestampString = "518978798.805097"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindIbeacon.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FindIbeacon.ViewController&gt;"
+                  moduleName = "FindIbeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chayatep/Desktop/TellMe/FindIbeacon/FindIbeacon/ViewController.swift"
+                  timestampString = "518978798.806605"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindIbeacon.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FindIbeacon.ViewController&gt;"
+                  moduleName = "FindIbeacon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chayatep/Desktop/TellMe/FindIbeacon/FindIbeacon/ViewController.swift"
+                  timestampString = "518978798.807937"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindIbeacon/ViewController.swift"
+            timestampString = "518978764.079326"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "locationManager(_:didRangeBeacons:in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindIbeacon/ViewController.swift"
+            timestampString = "518976571.818492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getTtile()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
