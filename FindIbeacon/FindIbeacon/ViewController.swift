@@ -10,6 +10,7 @@ import UIKit
 import CoreLocation
 
 class ViewController:  UIViewController , CLLocationManagerDelegate {
+    @IBOutlet var ObjectStatus: UILabel!
     
     
     class Location{
@@ -174,10 +175,10 @@ class ViewController:  UIViewController , CLLocationManagerDelegate {
                     
                     switch closestBeacon.proximity {
                         
-                    case.immediate: if(location.getStatus()){createAlert(title: location.getTtile(), massage: location.getMessage());objectStatus.text=location.getTtile() + "ใกล้มาก"; location.setStatus(status: false)};return;
-                    case.near: objectStatus.text="ยังไม่เจอ";location.setStatus(status: true);return
-                    case.far:  objectStatus.text="ยังไม่เจอ"; location.setStatus(status: true);return
-                    case.unknown: objectStatus.text="ยังไม่เจอ"; location.setStatus(status:true);return
+                    case.immediate: if(location.getStatus()){createAlert(title: location.getTtile(), massage: location.getMessage());ObjectStatus.text=location.getTtile() + "ใกล้มาก"; location.setStatus(status: false)};return;
+                    case.near: ObjectStatus.text="ยังไม่เจอ";location.setStatus(status: true);return
+                    case.far:  ObjectStatus.text="ยังไม่เจอ"; location.setStatus(status: true);return
+                    case.unknown: ObjectStatus.text="ยังไม่เจอ"; location.setStatus(status:true);return
                         
                     }
                 
